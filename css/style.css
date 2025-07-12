@@ -69,11 +69,6 @@ body {
   gap: 50px;
 }
 
-.header-link {
-  color: var(--accent-color);
-  transition: all 0.25s;
-}
-
 .header-link:hover {
   color: var(--color-brand);
   transition: all 0.25s;
@@ -82,8 +77,29 @@ body {
 .header-link {
   font-size: 14px;
   font-weight: 500;
+  transition: all 0.25s;
   color: var(--titles-color);
-  letter-spacing: 2%;
+  position: relative;
+  display: block;
+}
+
+.header-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 5px;
+  background-color: var(--color-brand);
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: bottom;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.header-link:hover::after {
+ opacity: 1; 
+ transform: scaleX(1);
 }
 
 .header-info-list {
@@ -119,7 +135,7 @@ body {
   background: url("../images/mainpage/hero-bg.png") center / cover no-repeat;
   background-size: cover;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 
 .hero-container {
@@ -321,6 +337,7 @@ body {
 /* TEAM SECTION START */
 .team {
   background-color: var(--team-background);
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -415,20 +432,25 @@ body {
   text-align: center;
   padding-bottom: 50px;
 }
-.client-list{
+
+.client-list {
   display: flex;
   gap: 30px;
 }
-.client-item{
+
+.client-item {
   padding: 16px 32px;
   border: 1px solid var(--client-item-border);
   border-radius: 4px;
   width: 106px;
 }
-.client-icon{
+
+.client-icon {
   padding: 7px 32px;
 }
+
 /* FOOTER START */
+/*Need help*/
 /*-----------------------------------------------------------------------------------------*/
 .footer {
   background-color: var(--footer-bg);
@@ -529,7 +551,6 @@ body {
 
 .category-button {
   text-align: center;
-  /*width: auto;*/
   padding-right: 22px;
   padding-left: 22px;
   font-family: var(--main-font);
@@ -542,7 +563,7 @@ body {
 /* CATEGORY SECTION END */
 /* PORTFOLIO SECTION START */
 .portfolio {
-  padding-top: 34px;
+  padding-top: 50px;
   padding-bottom: 94px;
 }
 
