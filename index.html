@@ -16,28 +16,28 @@
 <body>
   <header class="header">
     <div class="container header-container">
-      <a href="index.html" class="header-logo">Web<span class="header-span">Studio</span></a>
-      <nav class="header-navigation">
-        <ul class="header-list">
-          <li class="header-item">
-            <a href="index.html" class="header-link">Студія</a>
+      <a href="index.html" class="header__logo">Web<span class="header-span">Studio</span></a>
+      <nav class="header__navigation">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="index.html" class="header__link">Студія</a>
           </li>
-          <li class="header-item">
-            <a href="portfolio.html" class="header-link">Портфоліо</a>
+          <li class="header__item">
+            <a href="portfolio.html" class="header__link">Портфоліо</a>
           </li>
-          <li class="header-item">
-            <a href="" class="header-link">Контакти</a>
+          <li class="header__item">
+            <a href="" class="header__link">Контакти</a>
           </li>
         </ul>
       </nav>
-      <ul class="header-info-list">
-        <li class="header-info-item">
+      <ul class="header__info-list">
+        <li class="header__info-item">
           <span class="icon-email"></span>
           <a href="mailto:@devstudio.com" class="info-link">info@devstudio.com</a>
         </li>
-        <li class="header-info-item">
-          <span class="icon-smartphone"></span>
-          <a href="tel:+380961111111" class="info-link">+38 096 111 11 11</a>
+        <li class="header-__nfo-item">
+          <span class="icon__smartphone"></span>
+          <a href="tel:+380961111111" class="info__link">+38 096 111 11 11</a>
         </li>
       </ul>
     </div>
@@ -45,11 +45,11 @@
   <main>
     <section class="hero">
       <div class="container hero-container">
-        <h1 class="hero-title">
+        <h1 class="hero__title">
           Ефективні рішення для <br />
           вашого бізнесу
         </h1>
-        <button type="button" class="hero-button btn-open" data-modal-open>Замовити послугу</button>
+        <button type="button" class="hero__button btn-open" data-modal-open>Замовити послугу</button>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
             <button type="button" data-modal-close>X</button>
@@ -71,41 +71,43 @@
         </div>
       </div>
     </section>
+    <!-- HERO SECTION END -->
+    <!-- DETAILS SECTION START -->
     <section class="details">
       <div class="container details-container">
-        <ul class="details-list">
-          <li class="details-item">
-            <article class="details-article">
-              <h3 class="details-title">Увага до деталей</h3>
-              <p class="details-description">
+        <ul class="details__list">
+          <li class="details__item">
+            <article class="details__article">
+              <h3 class="details__title">Увага до деталей</h3>
+              <p class="details__description">
                 Ідейні міркування, і навіть початок <br />
                 повсякденної роботи з формування <br />
                 позиції.
               </p>
             </article>
           </li>
-          <li class="details-item">
-            <article class="details-article">
-              <h3 class="details-title">Пунктуальність</h3>
-              <p class="details-description">
+          <li class="details__item">
+            <article class="details__article">
+              <h3 class="details__title">Пунктуальність</h3>
+              <p class="details__description">
                 Завдання організації, особливо рамки <br />
                 і місце навчання кадрів тягне у себе
               </p>
             </article>
           </li>
-          <li class="details-item">
-            <article class="details-article">
-              <h3 class="details-title">Планування</h3>
-              <p class="details-description">
+          <li class="details__item">
+            <article class="details__article">
+              <h3 class="details__title">Планування</h3>
+              <p class="details__description">
                 Так само консультація з широким <br />
                 активом значною мірою зумовлює
               </p>
             </article>
           </li>
-          <li class="details-item">
-            <article class="details-article">
-              <h3 class="details-title">Сучасні технології</h3>
-              <p class="details-description">
+          <li class="details__item">
+            <article class="details__article">
+              <h3 class="details__title">Сучасні технології</h3>
+              <p class="details__description">
                 Значимість цих проблем настільки <br />
                 очевидна, що реалізація планових <br />
                 завдань
@@ -117,78 +119,77 @@
     </section>
     <section class="doing">
       <div class="container doing-container">
-        <h2 class="doing-title">Чим ми займаємося</h2>
-        <ul class="doing-list">
-          <li class="doing-item">
-            <img class="doing-img" src="./images/mainpage/coding.png"
+        <h2 class="doing__title">Чим ми займаємося</h2>
+        <ul class="doing__list">
+          <li class="doing__item">
+            <img class="doing__img" src="./images/mainpage/coding.png"
               alt="Person coding in the really nice room with purple background" width="300" height="300" />
-              <p class="doing-desc">Десктопні додатки</p>
+              <p class="doing__desc">Десктопні додатки</p>
           </li>
-          <li class="doing-item">
-            <img class="doing-img" src="./images/mainpage/sms.png" alt="Person designing something or sending sms"
+          <li class="doing__item">
+            <img class="doing__img" src="./images/mainpage/sms.png" alt="Person designing something or sending sms"
               width="300" height="300" />
-              <p class="doing-desc">Мобільні додатки</p>
+              <p class="doing__desc">Мобільні додатки</p>
           </li>
-          <li class="doing-item">
-            <img class="doing-img" src="./images/mainpage/colour.png"
+          <li class="doing__item">
+            <img class="doing__img" src="./images/mainpage/colour.png"
               alt="Person trying to pick the colour for the design" width="300" height="300" />
-              <p class="doing-desc">Дизайнерські рішення</p>
+              <p class="doing__desc">Дизайнерські рішення</p>
           </li>
         </ul>
       </div>
     </section>
     <section class="team">
       <div class="container">
-        <h2 class="team-title">Наша команда</h2>
-        <ul class="team-list">
-          <li class="team-item">
-            <img class="team-img" src="./images/mainpage/product--designer.jpg" alt="Designer" />
-            <h4 class="team-name">Ігор Дем'яненко</h4>
-            <p class="team-role">Product Designer</p>
-            <ul class="team-medial-list">
-              <li class="team-medial-item"><a class="team-medial-link" href="#"><svg class="team-medial-icon" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-instagram"></use></svg></a></li>
-              <li class="team-medial-item"><a class="team-medial-link" href="#"><svg class="team-medial-icon" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-twitter"></use></svg></a></li>
-              <li class="team-medial-item"><a class="team-medial-link" href="#"><svg class="team-medial-icon" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-facebook"></use></svg></a></li>
-              <li class="team-medial-item"><a class="team-medial-link" href="#"><svg class="team-medial-icon" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-linkedin"></use></svg></a></li>
+        <h2 class="team__title">Наша команда</h2>
+        <ul class="team__list">
+          <li class="team__item">
+            <img class="team__img" src="./images/mainpage/product--designer.jpg" alt="Designer" />
+            <h4 class="team__name">Ігор Дем'яненко</h4>
+            <p class="team__role">Product Designer</p>
+            <ul class="team__medial-list">
+              <li class="team__medial-item"><a class="team__medial-link" href="#"><svg class="team__medial-icon" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-instagram"></use></svg></a></li>
+              <li class="team__medial-item"><a class="team__medial-link" href="#"><svg class="team__medial-icon" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-twitter"></use></svg></a></li>
+              <li class="team__medial-item"><a class="team__medial-link" href="#"><svg class="team__medial-icon" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-facebook"></use></svg></a></li>
+              <li class="team__medial-item"><a class="team__medial-link" href="#"><svg class="team__medial-icon" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-linkedin"></use></svg></a></li>
               </svg></li>
             </ul>
           </li>
-          <li class="team-item">
-            <img class="team-img" src="./images/mainpage/frontend-developer.jpg" alt="Frontend Dev" />
-            <h4 class="team-name">Ольга Рєпіна</h4>
-            <p class="team-role">Frontend Developer</p>
-            <ul class="team-medial-list">
-              <li class="team-medial-item"><svg class="team-medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-instagram"></use></svg></li>
-              <li class="team-medial-item"><svg class="team-medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-twitter"></use></svg></li>
-              <li class="team-medial-item"><svg class="team-medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-facebook"></use></svg></li>
-              <li class="team-medial-item"><svg class="team-medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-linkedin"></use></svg></li>
+          <li class="team__item">
+            <img class="team__img" src="./images/mainpage/frontend-developer.jpg" alt="Frontend Dev" />
+            <h4 class="team__name">Ольга Рєпіна</h4>
+            <p class="team__role">Frontend Developer</p>
+            <ul class="team__medial-list">
+              <li class="team__medial-item"><svg class="team__medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-instagram"></use></svg></li>
+              <li class="team__medial-item"><svg class="team__medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-twitter"></use></svg></li>
+              <li class="team__medial-item"><svg class="team__medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-facebook"></use></svg></li>
+              <li class="team__medial-item"><svg class="team__medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-linkedin"></use></svg></li>
               </svg></li>
             </ul>
           </li>
-          <li class="team-item">
-            <img class="team-img" src="./images/mainpage/marketing.jpg" alt="User Interface Designer" />
-            <h4 class="team-name">Микола Тарасов</h4>
-            <p class="team-role">Marketing</p>
-            <ul class="team-medial-list">
-              <li class="team-medial-item"><svg class="team-medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-instagram"></use></svg></li>
-              <li class="team-medial-item"><svg class="team-medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-twitter"></use></svg></li>
-              <li class="team-medial-item"><svg class="team-medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-facebook"></use></svg></li>
-              <li class="team-medial-item"><svg class="team-medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-linkedin"></use></svg></li>
+          <li class="team__item">
+            <img class="team__img" src="./images/mainpage/marketing.jpg" alt="User Interface Designer" />
+            <h4 class="team__name">Микола Тарасов</h4>
+            <p class="team__role">Marketing</p>
+            <ul class="team__medial-list">
+              <li class="team__medial-item"><svg class="team__medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-instagram"></use></svg></li>
+              <li class="team__medial-item"><svg class="team__medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-twitter"></use></svg></li>
+              <li class="team__medial-item"><svg class="team__medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-facebook"></use></svg></li>
+              <li class="team__medial-item"><svg class="team__medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-linkedin"></use></svg></li>
               </svg></li>
             </ul>
           </li>
-          <li class="team-item">
-            <img class="team-img" src="./images/mainpage/ui-designer.jpg" alt="Frontend Dev" />
-            <h4 class="team-name">Михайло Єрмаков</h4>
-            <p class="team-role">UI Designer</p>
-            <ul class="team-medial-list">
-              <li class="team-medial-item"><svg class="team-medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-instagram"></use></svg></li>
-              <li class="team-medial-item"><svg class="team-medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-twitter"></use></svg></li>
-              <li class="team-medial-item"><svg class="team-medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-facebook"></use></svg></li>
-              <li class="team-medial-item"><svg class="team-medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-linkedin"></use></svg></li>
+          <li class="team__item">
+            <img class="team__img" src="./images/mainpage/ui-designer.jpg" alt="Frontend Dev" />
+            <h4 class="team__name">Михайло Єрмаков</h4>
+            <p class="team__role">UI Designer</p>
+            <ul class="team__medial-list">
+              <li class="team__medial-item"><svg class="team__medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-instagram"></use></svg></li>
+              <li class="team__medial-item"><svg class="team__medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-twitter"></use></svg></li>
+              <li class="team__medial-item"><svg class="team__medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-facebook"></use></svg></li>
+              <li class="team__medial-item"><svg class="team__medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-linkedin"></use></svg></li>
               </svg></li>
             </ul>
-          </li>
         </ul>
       </div>
     </section>
@@ -196,26 +197,26 @@
     <!-- CLIENT SECTION START -->
      <section class="client">
       <div class="container">
-        <h2 class="client-title">Постійні клієнти</h2>
-        <ul class="client-list">
-          <li class="client-item"><svg width="41" height="46" class="client-icon">
+        <h2 class="client__title">Постійні клієнти</h2>
+        <ul class="client__list">
+          <li class="client__item"><svg width="41" height="46" class="client__icon">
             <use href="./images/mainpage/symbol-client.svg#icon-yaco"></use>
           </svg></li>
-          <li class="client-item"><svg width="40" height="52" class="client-icon">
+          <li class="client-item"><svg width="40" height="52" class="client__icon">
             <use href="./images/mainpage/symbol-client.svg#icon-tagline"></use>
           </svg></li>
-          <li class="client-item"><svg width="43" height="41" class="client-icon">
+          <li class="client-item"><svg width="43" height="41" class="client__icon">
             <use href="./images/mainpage/symbol-client.svg#icon-company"></use>
           </svg></li>
-          <li class="client-item"><svg width="84" height="40" class="client-icon">
+          <li class="client-item"><svg width="84" height="40" class="client__icon">
             <use href="./images/mainpage/symbol-client.svg#icon-peters"></use>
           </svg></li>
-          <li class="client-item"><svg width="62" height="45" class="client-icon">
+          <li class="client-item"><svg width="62" height="45" class="client__icon">
             <use href="./images/mainpage/symbol-client.svg#icon-brand"></use>
           </svg></li>
-          <li class="client-item"><svg width="93" height="43" class="client-icon">
-            <use href="./images/mainpage/symbol-client.svg#icon-cube"></use>
-          </svg></li>
+          <li class="client-item"><svg width="93" height="43" class="client__icon">
+            <use href="./images/mainpage/symbol-client.svg#icon-cube"></use></svg>
+          </li>
         </ul>
       </div>
      </section>
@@ -224,23 +225,23 @@
   <!-- FOOTER START -->
   <footer class="footer">
     <div class="container footer-container">
-      <a href="index.html" class="footer-logo">Web<span class="footer-logo-span">Studio</span></a>
-      <address class="footer-address">
-        <ul class="footer-list">
-          <li class="footer-item">м. Київ, пр-т Лесі Українки, 26</li>
-          <li class="footer-item">
-            <a href="mailto:@devstudio.com" class="footer-link">info@devstudio.com</a>
+      <a href="index.html" class="footer__logo">Web<span class="footer-logo-span">Studio</span></a>
+      <address class="footer__address">
+        <ul class="footer__list">
+          <li class="footer__item">м. Київ, пр-т Лесі Українки, 26</li>
+          <li class="footer__item">
+            <a href="mailto:@devstudio.com" class="footer__link">info@devstudio.com</a>
           </li>
-          <li class="footer-item">
-            <a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a>
+          <li class="footer__item">
+            <a href="tel:+380961111111" class="footer__link">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
-      <ul class="footer-contacts">
-              <li class="team-medial-item"><svg class="team-medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-instagram"></use></svg></li>
-              <li class="team-medial-item"><svg class="team-medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-twitter"></use></svg></li>
-              <li class="team-medial-item"><svg class="team-medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-facebook"></use></svg></li>
-              <li class="team-medial-item"><svg class="team-medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-linkedin"></use></svg></li>
+      <ul class="footer__contacts">
+              <li class="team__medial-item"><svg class="team__medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-instagram"></use></svg></li>
+              <li class="team__medial-item"><svg class="team__medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-twitter"></use></svg></li>
+              <li class="team__medial-item"><svg class="team__medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-facebook"></use></svg></li>
+              <li class="team__medial-item"><svg class="team__medial-img" width="20" height="20"><use href="./images/mainpage/symbol-defs.svg#icon-linkedin"></use></svg></li>
               </svg></li>
       </ul>
     </div>
