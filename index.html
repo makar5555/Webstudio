@@ -5,7 +5,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>WebStudio</title>
-  <link href="./css/reset.css" rel="stylesheet" />
   <link href="./css/main.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet" />
@@ -17,29 +16,31 @@
   <header class="header">
     <div class="container header-container">
       <a href="index.html" class="header__logo">Web<span class="header-span">Studio</span></a>
-      <nav class="header__navigation">
-        <ul class="header__list">
-          <li class="header__item">
-            <a href="index.html" class="header__link">Студія</a>
+      <div class="header__wraper">
+        <nav class="header__navigation">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="index.html" class="header__link">Студія</a>
+            </li>
+            <li class="header__item">
+              <a href="portfolio.html" class="header__link">Портфоліо</a>
+            </li>
+            <li class="header__item">
+              <a href="" class="header__link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header__info-list">
+          <li class="header__info-item">
+            <span class="icon-email"></span>
+            <a href="mailto:@devstudio.com" class="info-link">info@devstudio.com</a>
           </li>
-          <li class="header__item">
-            <a href="portfolio.html" class="header__link">Портфоліо</a>
-          </li>
-          <li class="header__item">
-            <a href="" class="header__link">Контакти</a>
+          <li class="header-__nfo-item">
+            <span class="icon__smartphone"></span>
+            <a href="tel:+380961111111" class="info__link">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-      <ul class="header__info-list">
-        <li class="header__info-item">
-          <span class="icon-email"></span>
-          <a href="mailto:@devstudio.com" class="info-link">info@devstudio.com</a>
-        </li>
-        <li class="header-__nfo-item">
-          <span class="icon__smartphone"></span>
-          <a href="tel:+380961111111" class="info__link">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </div>
   </header>
   <main>
@@ -267,7 +268,7 @@
   <!-- FOOTER START -->
   <footer class="footer">
     <div class="container footer-container">
-      <a href="index.html" class="footer__logo">Web<span class="footer-logo-span">Studio</span></a>
+      <a href="index.html" class="footer__logo">Web<span class="footer__logo-span">Studio</span></a>
       <address class="footer__address">
         <ul class="footer__list">
           <li class="footer__item">м. Київ, пр-т Лесі Українки, 26</li>
