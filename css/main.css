@@ -355,9 +355,7 @@ body {
   font-size: 36px;
   font-weight: 700;
   color: var(--titles-color);
-  padding-left: 453px;
-  padding-right: 453px;
-  padding-top: 94px;
+  text-align: center;
   padding-bottom: 50px;
   margin: 0 auto;
 }
@@ -437,10 +435,11 @@ body {
 }
 
 .category__list {
+  padding-top: 94px;
   display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
+  justify-content: center;
   text-transform: capitalize;
+  gap: 8px;
 }
 .category__button {
   font-size: 16px;
