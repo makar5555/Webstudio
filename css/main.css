@@ -110,7 +110,7 @@ body {
 .header__logo {
   font-size: 26px;
   font-weight: 700;
-  font-family: secondaryFont;
+  font-family: "Raleway", sans-serif;
   color: rgb(33, 150, 243);
   padding-right: 93px;
 }
@@ -165,11 +165,11 @@ body {
   display: flex;
   gap: 10px;
 }
-.header__info-item:hover {
+.header__info-link:hover {
   color: rgb(33, 150, 243);
   transition: all 0.25s;
 }
-.header-link {
+.header__info-link {
   font-size: 14px;
   font-weight: 500;
   color: rgb(117, 117, 117);
