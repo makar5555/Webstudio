@@ -105,7 +105,7 @@ body {
 }
 .header-container {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 .header__logo {
   font-size: 26px;
@@ -118,10 +118,13 @@ body {
   color: rgb(33, 33, 33);
 }
 .header__list {
-  padding-left: 0;
-  padding-right: 344px;
   display: flex;
   gap: 50px;
+}
+.header__wraper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 .header__link:hover {
   color: rgb(33, 150, 243);
@@ -173,6 +176,7 @@ body {
   transition: all 0.25s;
 }
 
+/* DONE */
 .hero {
   background: url("../images/mainpage/hero-bg.png") center/cover no-repeat;
   background-size: cover;
@@ -262,7 +266,6 @@ body {
   display: flex;
   gap: 30px;
   justify-content: space-between;
-  margin: 0 auto;
 }
 .doing__img {
   width: 370px;
@@ -277,8 +280,8 @@ body {
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
-  position: relative;
-  bottom: 70px;
+  position: absolute;
+  bottom: px;
 }
 
 .details {
@@ -486,7 +489,7 @@ body {
   margin: 0;
 }
 .portfolio__item {
-  width: 370px;
+  flex-basis: 370px;
   height: 404px;
   margin-bottom: 30px;
   background-color: rgb(255, 255, 255);
