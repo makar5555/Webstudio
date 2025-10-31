@@ -89,6 +89,9 @@ table {
 body {
   background-color: var(--about-us);
   font-family: var(--main-font);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: rgb(33, 33, 33);
 }
 
 .container {
@@ -102,6 +105,7 @@ body {
   border-bottom-color: rgb(238, 238, 238);
   padding-top: 24px;
   padding-bottom: 25px;
+  letter-spacing: 0.02em;
 }
 .header-container {
   display: flex;
@@ -113,6 +117,7 @@ body {
   font-family: "Raleway", sans-serif;
   color: rgb(33, 150, 243);
   padding-right: 93px;
+  letter-spacing: 0.03em;
 }
 .header-span {
   color: rgb(33, 33, 33);
@@ -131,7 +136,6 @@ body {
   transition: all 0.25s;
 }
 .header__link {
-  font-size: 14px;
   font-weight: 500;
   transition: all 0.25s;
   color: rgb(33, 33, 33);
@@ -161,17 +165,11 @@ body {
   display: flex;
   gap: 50px;
 }
-.header__info-item {
-  display: flex;
-  gap: 10px;
-}
 .header__info-link:hover {
   color: rgb(33, 150, 243);
   transition: all 0.25s;
 }
 .header__info-link {
-  font-size: 14px;
-  font-weight: 500;
   color: rgb(117, 117, 117);
   transition: all 0.25s;
 }
@@ -179,7 +177,6 @@ body {
 /* DONE */
 .hero {
   background: url("../images/mainpage/hero-bg.png") center/cover no-repeat;
-  background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
   /* Hero Modal */
@@ -187,7 +184,6 @@ body {
 .hero-container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   text-align: center;
 }
 .hero__title {
@@ -198,8 +194,7 @@ body {
   text-transform: uppercase;
 }
 .hero__button {
-  width: 216px;
-  height: 50px;
+  padding: 10px 32px;
   background-color: rgb(33, 150, 243);
   color: rgb(255, 255, 255);
   margin: 0 auto;
@@ -266,6 +261,7 @@ body {
   display: flex;
   gap: 30px;
   justify-content: space-between;
+  position: relative;
 }
 .doing__img {
   width: 370px;
@@ -274,14 +270,14 @@ body {
 .doing__desc {
   text-align: center;
   text-wrap: nowrap;
-  padding: 27px 107px;
+  padding-block: 27px;
   background-color: var(--doing-desc);
   color: var(--about-us);
   font-weight: 700;
-  font-size: 14px;
   text-transform: uppercase;
   position: absolute;
-  bottom: px;
+  bottom: 0;
+  width: 370px;
 }
 
 .details {
@@ -328,7 +324,6 @@ body {
   width: 270px;
 }
 .details__title {
-  font-size: 14px;
   font-weight: 700;
   color: var(--titles-color);
   text-transform: uppercase;
@@ -337,7 +332,6 @@ body {
   padding-bottom: 10px;
 }
 .details__description {
-  font-size: 14px;
   font-weight: 400;
   color: var(--secondary-color);
   line-height: 24px;
@@ -410,7 +404,7 @@ body {
   color: var(--about-us);
 }
 .team__medial-link:hover .team-medial-icon {
-  background: #000;
+  fill: #000;
 }
 
 .client {
@@ -454,8 +448,9 @@ body {
   background-color: var(--team-background);
   border-width: 0;
   border-radius: 4px;
-  height: 38px;
+  padding-block: 6px;
   transition: all 0.25s;
+  cursor: pointer;
 }
 .category__button:hover {
   color: var(--about-us);
@@ -584,7 +579,6 @@ body {
   font-style: normal;
 }
 .footer__item {
-  font-size: 14px;
   font-weight: 400;
   color: var(--about-us);
   line-height: 24px;
@@ -592,7 +586,6 @@ body {
   padding-top: 9px;
 }
 .footer__link {
-  font-size: 14px;
   font-weight: 400;
   color: var(--footer-text);
   line-height: 24px;
