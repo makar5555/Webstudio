@@ -169,6 +169,9 @@ body {
   color: rgb(33, 150, 243);
   transition: all 0.25s;
 }
+.header__span:hover {
+  fill: rgb(33, 150, 243);
+}
 .header__info-link {
   color: rgb(117, 117, 117);
   transition: all 0.25s;
@@ -362,7 +365,7 @@ body {
   text-align: center;
   border-radius: 4px;
   box-shadow: 0px 2px 1px 0px var(--team-shadow);
-  background-color: var(--);
+  background: rgb(255, 255, 255);
 }
 .team__img {
   width: 270px;
@@ -395,9 +398,9 @@ body {
   color: var(--about-us);
 }
 .team__medial-link {
-  fill: white;
+  fill: rgb(175, 177, 184);
 }
-.team__medial-link:hover .team-medial-icon {
+.team__medial-link:hover .team__medial-icon {
   fill: white;
 }
 
@@ -423,6 +426,10 @@ body {
 }
 .client__icon {
   padding: 7px 32px;
+  fill: rgb(117, 117, 117);
+}
+.client__icon:hover {
+  fill: rgb(33, 150, 243);
 }
 
 .category {
@@ -575,6 +582,13 @@ body {
 }
 .footer__contacts {
   display: flex;
+}
+.footer__medial__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* if you reade his text, its work*/
