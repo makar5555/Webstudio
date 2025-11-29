@@ -479,7 +479,7 @@ ul {
 }
 
 .antena::before {
-  background-image: url(../images/main-page/antenna.png);
+  background-image: url(../images/main-page/antena.png);
   background-color: var(--background-team);
 }
 
